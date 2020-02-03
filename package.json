@@ -1,0 +1,38 @@
+{
+  "name": "openui5-booking",
+  "version": "1.0.0-alpha",
+  "description": "OpenUI5 Booking",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fokind/booking"
+  },
+  "homepage": "https://github.com/fokind/booking",
+  "keywords": [
+    "ui5",
+    "openui5",
+    "booking"
+  ],
+  "author": {
+    "name": "Dmitry Fokin"
+  },
+  "license": "MIT",
+  "private": false,
+  "main": "dist/index.html",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified. Please add some.\" && exit 1",
+    "start": "ui5 serve -o",
+    "build": "ui5 build --clean-dist"
+  },
+  "dependencies": {
+    "@openui5/sap.m": "^1.73.2",
+    "@openui5/sap.ui.core": "^1.73.2",
+    "@openui5/themelib_sap_belize": "^1.73.2"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^1.13.0",
+    "eslint": "^6.8.0"
+  }
+}
